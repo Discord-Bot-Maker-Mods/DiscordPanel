@@ -1,0 +1,57 @@
+body {
+	margin: 0 2.5%;
+}
+header {
+	padding: 10px;
+}
+.buttonArea {
+	float: right;
+	margin-top: 10px;
+}
+
+header.jumbotron {
+	padding: 20px;
+}
+
+.mainContainer {
+	border: 1px solid grey;
+}
+
+.container {
+	padding: 0;
+}
+
+.container ul {
+	padding: 0;
+}
+
+.list-group-item {
+	overflow: hidden;
+}
+
+.list-group-item:hover {
+	background-color: lightgrey;
+}
+
+.editInput {
+	border-radius: 4px;
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+.showList {
+	display: block;
+	float: left;
+	padding: 6px;
+}
+
+.saveBtn {
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 1.3em;
+}
+
+#hideEdit span{
+	display: none;
+}
