@@ -1,0 +1,76 @@
+﻿DiscordPanel
+
+
+What is it?
+DiscordPanel is an HTML, PHP, CSS, JS, and more designed discord bot software what works as a panel.
+Currently, you can, restart, stop and start a bot from the panel.
+You can have an unlimited number of bots added as long as you have the details.
+There is a rated development knowledge of 4.5/10 to use this script.
+There are a To-Do page and widget on the home screen too, and a bug screen coming soon!
+The whole code is open source, what is amazing!
+
+
+Why use DiscordPanel?
+We own and run around 14 discord bots what are on hundreds of thousands of discord servers, so downtime can impact us a lot. So our lead developer designed a software called DiscordPanel the only free self-hosted discord bot control panel. If your bot is on discordbots.org then you can use the status widget on the home screen, but don't worry as in a future update we will be adding another way to use the status widget.
+
+
+How to setup DiscordPanel?
+This part is long, and kind of hard, so we have written it our word for word on how to do it in steps:
+1. Upload the files in the “Files” folder to the web directory you want to use
+2. Create a database with a username and password (Can be anything)
+3. Open up the file “disconnect” in the “PHP” folder
+4. Edit lines “2” to “6” with your database details, and save the file
+5. Upload the .SQL file in the “SQL” folder in the root of this download
+6. Open up the file “Index.php” in your web directory root
+7. You can change the navbar details between lines “36” to “75”
+8. You can then also edit the secondary user drop-down navbar between lines “76“ to “106“
+9. From lines “112” to “132” is the first discord bot widget on the home screen
+10. You can edit line “121” to the name of the bot you want to have it as (Replace “BOT1”)
+11. Then if the bot uses DiscordBots.Org you can put your discord bots id between “https://discordbots.org/api/widget/status/BOTIDHERE.svg”
+12. Changing “BOTIDHERE” to your bots ID
+13. You can then repeat this for the other 3 bot widgets what are on the home page.
+14. On the home page, you can only have four (4) bot widgets there (More in an upcoming update).
+15. However, if you only want to show less than four (4) widgets you can remove them by removing “<div class="col-lg-3 col-md-6 col-sm-6">” to “</div>” (That should be around 17 lines of code)
+16. Open the file “bot1.php” and edit lines “5” to “7” with your SSH login details
+17. Then edit lines “17” to what your bot location is (Change “/cmbbot” to your bots location)
+18. Then do the same for lines “21”
+19. Then edit lines “148”, “155”, and “157” to the information you want to give (Kind of an about area for the bot)
+20. Then edit lines “172” and change from “IMAGEURL” to an image to represent that bot
+21. Then edit lines “176”, “177”, and  “178” to the details you want (Changing “YOURBOTID” to your bots id if it's on discordbots.org)
+22. Then repeat steps “16” to “21” on the “bot2.php”, “bot3.php”, and “bot4.php” pages
+23. Then save all files
+24. To set the password open up the file “Login” and change lines “6” and replace “test” with the password you want to use
+25. You can then use the script
+
+
+To add an item to To-Do:
+As long as you've set up the panel right with SQL you should be able to click on the “To Do List” link on the side navbar and the todo list page will open
+Click on “Write Something Here…”
+Then write something on the todo list there
+Click on “Submit”
+You should get an alert if it works
+
+
+To edit a To-Do item:
+Go to the To Do List page
+Under the item on the todo page, there will be a text box with a green tick next to it
+Write the new detail in that text box then click the tick
+If successful an alert will popup
+
+
+To remove an item from To-Do:
+There are two ways to do this…
+Go to the main (Home) page and click on the red “-” logo next to the item you want to remove the widget
+If successful an alert will popup
+Or
+Go to the To Do List page
+Click the red “-” logo next to the item you want to remove
+If successful an alert will popup
+
+
+
+
+DiscordPanel Version 1.0
+Donate to keep development active at PayPal.me/braderstm
+Add me on discord for a small amount of support: BradersTheKiller#3854
+Join the official discord support server for DiscordPanel: https://discord.gg/q2RDufd
