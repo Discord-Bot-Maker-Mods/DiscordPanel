@@ -1,0 +1,91 @@
+DiscordPanel:
+
+HOW TO UPDATE FROM 1.2:
+1. Open up these files: "bot1.php", "bot2.php", "bot3.php", "bot4.php", "index.php", and "todolist.php"
+2. On all bot files (1-4) edit lines "14" to "22" and replace the all of it with:
+
+#################
+<?php
+if(!empty($_POST['lobby-stop'])) { #Watch if the button is pressed
+    $ssh->exec('killall -9 node'); #Execution in SSH
+}
+
+if(!empty($_POST['lobby-restart'])) { #Watch if the button is pressed
+    $ssh->exec('cd /folder; node bot.js'); #Execution in SSH
+}
+?>
+#################
+
+3. Change the bot directory back to what you used before (Edit "folder")
+4. Do that for all bot files (1 though 4)
+5. On bot files 1 though 4 go to line "101" and make a new line (removing all spaces)
+6. Paste this code there:
+
+#################
+                    <li>
+                        <a href="bugs.php">
+                            <i class="fas fa-bug"></i>
+                            <p>Bugs</p>
+                        </a>
+                    </li>
+#################
+
+7. Repeate this for the other bot files.
+8. Open file "Index.php", and "todolist.php"
+9. Go to lines "78" and make a new line (removing all spaces)
+10. Paste in this code:
+
+#################
+                    <li>
+                        <a href="bugs.php">
+                            <i class="fas fa-bug"></i>
+                            <p>Bugs</p>
+                        </a>
+                    </li>
+#################
+
+11. Repeate this for both files.
+12. Save all files.
+
+
+Setup SQL:
+In the first version of DiscordPanel there weas just ToDOList but we have now added a bug area. So we will need to uplkoad the table to the current SQL for the to-do-list.
+1. Go to the sql database in a thing like phpmyadmin
+2. Locate the database you have for DiscordPanel
+3. Click "Import"
+4. Locate the SQL file "Update/Sql/bugssql.sql" and upload it (Clicking "GO")
+5. This should then be done!
+6. Go to the file "bug/dbconnect.php" and enter the same login details for the database that "php/dbconnect.php" will have
+7. Save and test!
+
+
+
+To add an item to Bugs:
+As long as you've set up the panel right with SQL you should be able to click on the “Bugs” link on the side navbar and the Bugs page will open
+Click on “Enter bug here...”
+Then write something on the todo list there
+Click on “Submit”
+You should get an alert if it works
+
+
+To edit a Bug:
+Go to the Bug page
+Under the item on the Bug page, there will be a text box with a green tick next to it
+Write the new detail in that text box then click the tick
+If successful an alert will popup
+
+
+To remove an item from Bugs:
+There are two ways to do this…
+Go to the main (Home) page and click on the red “-” logo next to the item you want to remove the widget
+If successful an alert will popup
+Or
+Go to the Bugs page
+Click the red “-” logo next to the item you want to remove
+If successful an alert will popup
+
+
+DiscordPanel Version 1.2
+Donate to keep development active at PayPal.me/braderstm
+Add me on discord for a small amount of support: BradersTheKiller#3854
+Join the official discord support server for DiscordPanel: https://discord.gg/q2RDufd
