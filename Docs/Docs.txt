@@ -16,38 +16,38 @@ We own and run around 14 discord bots what are on hundreds of thousands of disco
 
 How to setup DiscordPanel?
 This part is long, and kind of hard, so we have written it our word for word on how to do it in steps:
-1. Upload the files in the “Files” folder to the web directory you want to use
-6. Open up the file “Index.php” in your web directory root
-7. You can change the navbar details between lines “36” to “75”
-8. You can then also edit the secondary user drop-down navbar between lines “76“ to “106“
-9. From lines “112” to “132” is the first discord bot widget on the home screen
-10. You can edit line “121” to the name of the bot you want to have it as (Replace “BOT1”)
-11. Then if the bot uses DiscordBots.Org you can put your discord bots id between “https://discordbots.org/api/widget/status/BOTIDHERE.svg”
-12. Changing “BOTIDHERE” to your bots ID
+1. Upload the files in the â€œFilesâ€ folder to the web directory you want to use
+6. Open up the file â€œIndex.phpâ€ in your web directory root
+7. You can change the navbar details between lines â€œ36â€ to â€œ75â€
+8. You can then also edit the secondary user drop-down navbar between lines â€œ76â€œ to â€œ106â€œ
+9. From lines â€œ112â€ to â€œ132â€ is the first discord bot widget on the home screen
+10. You can edit line â€œ121â€ to the name of the bot you want to have it as (Replace â€œBOT1â€)
+11. Then if the bot uses DiscordBots.Org you can put your discord bots id between â€œhttps://discordbots.org/api/widget/status/BOTIDHERE.svgâ€
+12. Changing â€œBOTIDHEREâ€ to your bots ID
 13. You can then repeat this for the other 3 bot widgets what are on the home page.
 14. On the home page, you can only have four (4) bot widgets there (More in an upcoming update).
-15. However, if you only want to show less than four (4) widgets you can remove them by removing “<div class="col-lg-3 col-md-6 col-sm-6">” to “</div>” (That should be around 17 lines of code)
-16. Open the file “bot1.php” and edit lines “5” to “7” with your SSH login details
-17. Then edit lines “17” to what your bot location is (Change “/cmbbot” to your bots location)
-18. Then edit lines “148”, “155”, and “157” to the information you want to give (Kind of an about area for the bot)
-19. Then edit lines “172” and change from “IMAGEURL” to an image to represent that bot
-20. Then edit lines “176”, “177”, and  “178” to the details you want (Changing “YOURBOTID” to your bots id if it's on discordbots.org)
-21. Then repeat steps “16” to “21” on the “bot2.php”, “bot3.php”, and “bot4.php” pages
+15. However, if you only want to show less than four (4) widgets you can remove them by removing â€œ<div class="col-lg-3 col-md-6 col-sm-6">â€ to â€œ</div>â€ (That should be around 17 lines of code)
+16. Open the file â€œbot1.phpâ€ and edit lines â€œ5â€ to â€œ7â€ with your SSH login details
+17. Then edit lines â€œ17â€ to what your bot location is (Change â€œ/cmbbotâ€ to your bots location)
+18. Then edit lines â€œ148â€, â€œ155â€, and â€œ157â€ to the information you want to give (Kind of an about area for the bot)
+19. Then edit lines â€œ172â€ and change from â€œIMAGEURLâ€ to an image to represent that bot
+20. Then edit lines â€œ176â€, â€œ177â€, and  â€œ178â€ to the details you want (Changing â€œYOURBOTIDâ€ to your bots id if it's on discordbots.org)
+21. Then repeat steps â€œ16â€ to â€œ21â€ on the â€œbot2.phpâ€, â€œbot3.phpâ€, and â€œbot4.phpâ€ pages
 22. Then save all files
-23. To set the password open up the file “Login” and change lines “6” and replace “test” with the password you want to use
+23. To set the password open up the file â€œLoginâ€ and change lines â€œ6â€ and replace â€œtestâ€ with the password you want to use
 24. You can then use the script
 
 Setup SQL:
 1. Make a SQL user, with a password and give it a database.
 2. Then open both files in "bug/dbconnect.php" and "php/dbconnect.php" (Same config file soon!) 
-3. Edit lines “2” to “6” with your database details in both, and save the files (The details NEED to be the same, only one user and database is needed!)
+3. Edit lines â€œ2â€ to â€œ6â€ with your database details in both, and save the files (The details NEED to be the same, only one user and database is needed!)
 4. Upload the .SQL file in "sql/SQL.sql" in the root download directory to the mysql database
 
 To add an item to To-Do:
-As long as you've set up the panel right with SQL you should be able to click on the “To Do List” link on the side navbar and the todo list page will open
-Click on “Write Something Here…”
+As long as you've set up the panel right with SQL you should be able to click on the â€œTo Do Listâ€ link on the side navbar and the todo list page will open
+Click on â€œWrite Something Hereâ€¦â€
 Then write something on the todo list there
-Click on “Submit”
+Click on â€œSubmitâ€
 You should get an alert if it works
 
 
@@ -60,14 +60,14 @@ If successful an alert will popup
 
 To remove an item from To-Do:
 Go to the To Do List page
-Click the red “-” logo next to the item you want to remove
+Click the red â€œ-â€ logo next to the item you want to remove
 If successful an alert will popup
 
 To add an item to Bugs::
-As long as you've set up the panel right with SQL you should be able to click on the “Bugs” link on the side navbar and the Bugs page will open
-Click on “Enter bug here...”
+As long as you've set up the panel right with SQL you should be able to click on the â€œBugsâ€ link on the side navbar and the Bugs page will open
+Click on â€œEnter bug here...â€
 Then write something on the todo list there
-Click on “Submit”
+Click on â€œSubmitâ€
 You should get an alert if it works
 
 
@@ -79,12 +79,12 @@ If successful an alert will popup
 
 
 To remove an item from Bugs:
-There are two ways to do this…
-Go to the main (Home) page and click on the red “-” logo next to the item you want to remove the widget
+There are two ways to do thisâ€¦
+Go to the main (Home) page and click on the red â€œ-â€ logo next to the item you want to remove the widget
 If successful an alert will popup
 Or
 Go to the Bugs page
-Click the red “-” logo next to the item you want to remove
+Click the red â€œ-â€ logo next to the item you want to remove
 If successful an alert will popup
 
 
