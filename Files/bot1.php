@@ -2,23 +2,22 @@
 include('Net/SSH2.php');
 
 #Log in
-$ip = "#";
-$user = "root";
-$password = "#";
+$ip = "";
+$user = "";
+$password = "";
 
 $ssh = new Net_SSH2($ip);
 if (!$ssh->login($user, $password)) {
     exit('Login Failed');
 }
 ?>
-
 <?php
 if(!empty($_POST['lobby-stop'])) { #Watch if the button is pressed
-    $ssh->exec('cd /cmbbot; node stop bot.js'); #Execution in SSH
+    $ssh->exec('killall -9 node'); #Execution in SSH
 }
 
 if(!empty($_POST['lobby-restart'])) { #Watch if the button is pressed
-    $ssh->exec('cd /cmbbot; node start bot.js'); #Execution in SSH
+    $ssh->exec('cd /folder; node bot.js'); #Execution in SSH
 }
 ?>
 <script>
@@ -31,8 +30,8 @@ if( document.cookie.indexOf("easylock") < 0) {
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png" />
-    <link rel="icon" href="https://discordapp.com/assets/07dca80a102d4149e9736d4b162cff6f.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://discordapp.com/assets/07dca80a102d4149e9736d4b162cff6f.ico" />
+    <link rel="icon" href="/assets/07dca80a102d4149e9736d4b162cff6f.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>DiscordPanel</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -98,6 +97,12 @@ if( document.cookie.indexOf("easylock") < 0) {
                         <a href="todolist.php">
                             <i class="fas fa-th-list"></i>
                             <p>To Do List</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="bugs.php">
+                            <i class="fas fa-bug"></i>
+                            <p>Bugs</p>
                         </a>
                     </li>
                 </ul>

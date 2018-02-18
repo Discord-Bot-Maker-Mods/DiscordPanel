@@ -14,6 +14,8 @@ if( document.cookie.indexOf("easylock") < 0) {
     <title>DiscordPanel</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="DiscordPanel, the only free opensource discord bot panel, to help keep your bots online">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Discord,Node,JS,DMB,Panel,DiscordPanel">
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <!--  Material Dashboard CSS    -->
@@ -76,6 +78,12 @@ if( document.cookie.indexOf("easylock") < 0) {
                             <p>To Do List</p>
                         </a>
                     </li>
+                    <li>
+                        <a href="bugs.php">
+                            <i class="fas fa-bug"></i>
+                            <p>Bugs</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -125,7 +133,7 @@ if( document.cookie.indexOf("easylock") < 0) {
                                 </div>
                                 <div class="card-content">
                                     <h3 class="title">BOT1</h3>
-                                    <img class="category" src="https://discordbots.org/api/widget/status/BOTIDHERE.svg" width="50">
+                                    <img class="category" src="https://discordbots.org/api/widget/status/356065937318871041.svg" width="50">
                                     </h3>
                                 </div>
                                 <div class="card-footer">
@@ -143,7 +151,7 @@ if( document.cookie.indexOf("easylock") < 0) {
                                 </div>
                                 <div class="card-content">
                                     <h3 class="title">BOT2</h3>
-                                    <img class="category" src="https://discordbots.org/api/widget/status/BOTIDHERE.svg" width="50">
+                                    <img class="category" src="https://discordbots.org/api/widget/status/277234960807755776.svg" width="50">
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
@@ -160,7 +168,7 @@ if( document.cookie.indexOf("easylock") < 0) {
                                 </div>
                                 <div class="card-content">
                                     <h3 class="title">BOT3</h3>
-                                    <img class="category" src="https://discordbots.org/api/widget/status/BOTIDHERE.svg" width="50">
+                                    <img class="category" src="https://discordbots.org/api/widget/status/218921854662868993.svg" width="20">
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
@@ -177,7 +185,7 @@ if( document.cookie.indexOf("easylock") < 0) {
                                 </div>
                                 <div class="card-content">
                                     <h3 class="title">BOT4</h3>
-                                    <img class="category" src="https://discordbots.org/api/widget/status/BOTIDHERE.svg" width="50">
+                                    <img class="category" src="https://discordbots.org/api/widget/status/326750725084282881.svg" width="50">
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
@@ -188,7 +196,7 @@ if( document.cookie.indexOf("easylock") < 0) {
                             </div>
                         </div>
                     </div>
-                    <center><div class="row">
+                    <div class="row">
                         <div>
                             <div class="card card-nav-tabs">
                                 <div class="card-header" data-background-color="red">
@@ -198,7 +206,7 @@ if( document.cookie.indexOf("easylock") < 0) {
                                             <ul class="nav nav-tabs" data-tabs="tabs">
                                                 <li class="active">
                                                     <a href="#profile" data-toggle="tab">
-                                                        <i class="fas fa-check"></i> To Do List
+                                                        <i class="fas fa-check"></i> Bugs
                                                         <div class="ripple-container"></div>
                                                     </a>
                                                 </li>
@@ -217,16 +225,18 @@ if( document.cookie.indexOf("easylock") < 0) {
 		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="script1.js"></script>
+	<script type="text/javascript" src="scriptbug1.js"></script>
 </body>
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <div class="tab-pane" id="messages">
+                                        <div class="tab-pane" id="settings">
                                     </div>
                                 </div>
                             </div>
-                        </div></center>
+                        </div>
+                    </div>
+                </div>
             <footer class="footer">
                 <div class="container-fluid">
                     <nav class="pull-left">

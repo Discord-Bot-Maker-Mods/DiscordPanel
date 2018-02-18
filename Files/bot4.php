@@ -2,23 +2,22 @@
 include('Net/SSH2.php');
 
 #Log in
-$ip = "#";
-$user = "root";
-$password = "#";
+$ip = "";
+$user = "";
+$password = "";
 
 $ssh = new Net_SSH2($ip);
 if (!$ssh->login($user, $password)) {
     exit('Login Failed');
 }
 ?>
-
 <?php
 if(!empty($_POST['lobby-stop'])) { #Watch if the button is pressed
-    $ssh->exec('cd /CMBADMIN; forever stop bot.js'); #Execution in SSH
+    $ssh->exec('killall -9 node'); #Execution in SSH
 }
 
 if(!empty($_POST['lobby-restart'])) { #Watch if the button is pressed
-    $ssh->exec('cd /CMBADMIN; forever start bot.js'); #Execution in SSH
+    $ssh->exec('cd /folder; node bot.js'); #Execution in SSH
 }
 ?>
 <script>
@@ -98,6 +97,12 @@ if( document.cookie.indexOf("easylock") < 0) {
                         <a href="todolist.php">
                             <i class="fas fa-th-list"></i>
                             <p>To Do List</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="bugs.php">
+                            <i class="fas fa-bug"></i>
+                            <p>Bugs</p>
                         </a>
                     </li>
                 </ul>
