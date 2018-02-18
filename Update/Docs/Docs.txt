@@ -61,10 +61,10 @@ In the first version of DiscordPanel there weas just ToDOList but we have now ad
 
 
 To add an item to Bugs:
-As long as you've set up the panel right with SQL you should be able to click on the “Bugs” link on the side navbar and the Bugs page will open
-Click on “Enter bug here...”
+As long as you've set up the panel right with SQL you should be able to click on the â€œBugsâ€ link on the side navbar and the Bugs page will open
+Click on â€œEnter bug here...â€
 Then write something on the todo list there
-Click on “Submit”
+Click on â€œSubmitâ€
 You should get an alert if it works
 
 
@@ -76,12 +76,12 @@ If successful an alert will popup
 
 
 To remove an item from Bugs:
-There are two ways to do this…
-Go to the main (Home) page and click on the red “-” logo next to the item you want to remove the widget
+There are two ways to do thisâ€¦
+Go to the main (Home) page and click on the red â€œ-â€ logo next to the item you want to remove the widget
 If successful an alert will popup
 Or
 Go to the Bugs page
-Click the red “-” logo next to the item you want to remove
+Click the red â€œ-â€ logo next to the item you want to remove
 If successful an alert will popup
 
 
