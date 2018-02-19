@@ -112,10 +112,10 @@ if( document.cookie.indexOf("easylock") < 0) {
                                         <a href="signout.php">Log Out</a>
                                     </li>
                                     <li>
-                                        <a href="https://discordbots.org/bots/BOTIDHERE">BOT Profile</a>
+                                        <a href="https://discordbots.org/bot/BOTIDHERE">BOT Profile</a>
                                     </li>
                                     <li>
-                                        <a href="https://discordbots.org/bots/BOTIDHERE">BOT Profile</a>
+                                        <a href="https://discordbots.org/bot/BOTIDHERE">BOT Profile</a>
                                     </li>
                                 </ul>
                             </li>
