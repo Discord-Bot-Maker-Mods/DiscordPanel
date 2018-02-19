@@ -1,17 +1,16 @@
 <?php 
 	 include_once('dbconnect.php');
 	 if(isset($_POST) && $_POST['users'] != ''){
-	 	$user = $_POST['users'];
-	 	
-		$query = "INSERT INTO tblbugs VALUES('','$user')";
+	 	$id = $_POST['users'];
+
+		$query = "DELETE FROM tblbugs WHERE id=$id";
 
 		 if($conn->query($query) === true){
 		 	$data['status'] = 1;
-		 	$data['msg'] = "Successfully added";
+		 	$data['msg'] = "Successfully Deleted";
 		 	echo json_encode($data);
-		 	//echo "Successfully to added";
 		 }else{
-		 	echo "Failed to add";
+		 	echo "Failed to delete";
 		 }
 	 }else{
 	 	echo "Invalid Input";
