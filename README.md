@@ -11,8 +11,14 @@ The whole code is open source, what is amazing!
 ## Why use DiscordPanel? 
 We own and run around 14 discord bots what are on hundreds of thousands discord servers, so downtime can impact us a lot. So our lead developer designed a software called DiscordPanel the only free self hosted discord bot control panel. If your bot is on discordbots.org then you can use the status widget on the homescreen, but don't worry as in a future update we will be adding another way to use the status widget.
 
-Watch the instilation video: https://youtu.be/Rmhb92uZbJA
 DiscordPanel Version 1.2
-Donate to keep development active at PayPal.me/braderstm
-Add me on discord for a small amount of support: BradersTheKiller#3854
+
+Offical Website: https://Discordpanel.xyz
+
+Demo Website: https://demo.Discordpanel.xyz
+
+Watch the instilation video: https://youtu.be/Rmhb92uZbJA
+
+Donate to keep development active at https://PayPal.me/braderstm
+
 Join the official discord support server for DiscordPanel: https://discord.gg/q2RDufd
