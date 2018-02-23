@@ -1,8 +1,7 @@
 <?php
-	$server = "localhost";
-	$username = "#";
-	$password = "#";
-	$db = "#";
+include('../Template/config.php');
+?>
+<?php
 
 	$conn = new mysqli($server,$username, $password, $db);
 	//var_dump($conn);

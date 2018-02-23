@@ -21,13 +21,6 @@ function addUser(){
 	user.value = " ";
 }
 
-function deleteList(get_id) {
-	$.post('bugs/delete.php', {'users' : get_id} , function(response){
-		var data = JSON.parse(response);
-		alert(data.msg);
-	})
-}
-
 function getList(){
 	$.get('bugs/getUsers.php', function(response){
 		var data = JSON.parse(response);
@@ -38,7 +31,7 @@ function getList(){
 			for(i = 0; i < list.length; i++){
 				html+= "<li class='list-group-item'>";
 				html+= "<span class='showList'>"+list[i].user+"</span>";
-				html+= "<button onclick='deleteList(this.id); loadPage();' id='"+list[i].id+"' class='close'>&#9940</button>";
+				html+= "<button onclick='deleteList(this.id); loadPage();' id='"+list[i].id+"' class='close'></button>";
 				html+= "</span></div>"
 				html+= "</li>";
 			}

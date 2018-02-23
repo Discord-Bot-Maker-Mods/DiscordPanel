@@ -1,9 +1,12 @@
 <?php
+include('Template/config.php');
+?>
+<?php
     include'easy-lock.php';
     $options = array(
-        "remember_me" => true,
+        "remember_me" => $websiterememberme,
     );
-    lock(test, 1, $options);
+    lock($websitepassword, 1, $options);
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
