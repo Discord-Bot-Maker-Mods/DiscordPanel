@@ -1,7 +1,7 @@
 ### DiscordPanel   
 ##### The only free open source Discord Bot Panel to manage up to 4 bots.
 
-## What is is?
+## What is it?
 DiscordPanel is an HTML, PHP, CSS, JS, and more designed discord bot software what works as a panel.
 Currently, you can, restart, stop and start a bot from the panel.
 You can have an unlimited number of bots added as long as you have the details.
