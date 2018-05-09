@@ -1,8 +1,13 @@
 <?php
-$brandname = 'DiscordPanel'; // Panel Name
-$websitepassword = 'test'; // Website Password
-$websiterememberme = 'true'; // Website remember me option... true = On. false = off
 
+/* General Settings */
+$brandname = 'DiscordPanel'; // Panel Name
+$websiterememberme = 'true'; // Website remember me option... true = On. false = off
+$clientID = '376359135794561024'; // Put your Discord Client ID for logging in.
+$clientSecret = 'zwYzE1RalBo7ykBvNI15McVYOW-L8_h3'; // Put your Discord Client Secret for logging in.
+$redirectURI = 'https://v2.beta.discordpanel.xyz/callback/login.php'; // Put your Discord Redirect URI for logging in. (Should be https://url.tld/callback/login.php)
+
+/* Bot 1 */
 $bot1 = 'Bot1'; // Name of the first Bot
 $Bot1about = 'Write what you want!'; // About details for the first bot
 $Bot1smalldetail = 'Main bot'; // Small details about first bot
@@ -13,6 +18,7 @@ $bot1User = ''; // The user that the first bot is hosted on (Root if possible)
 $bot1Password = ''; // The users password to login to the first bots server
 $bot1location = ''; // The location the bot files are at (Doesn't need the first "/"
 
+/* Bot 2 */
 $bot2 = 'Bot2'; // Name of the second Bot
 $Bot2about = 'Write what you want!';// About details for the second bot
 $Bot2smalldetail = 'Demo bot'; // Small details about second bot
@@ -23,6 +29,7 @@ $bot2User = ''; // The user that the second bot is hosted on (Root if possible)
 $bot2Password = ''; // The users password to login to the second bots server
 $bot2location = ''; // The location the bot files are at (Doesn't need the second "/"
 
+/* Bot 3 */
 $bot3 = 'Bot3'; // Name of the third Bot
 $Bot3about = 'Write what you want!';// About details for the third bot
 $Bot3smalldetail = 'Beta bot'; // Small details about thrid bot
@@ -33,6 +40,7 @@ $bot3User = ''; // The user that the third bot is hosted on (Root if possible)
 $bot3Password = ''; // The users password to login to the third bots server
 $bot3location = ''; // The location the bot files are at (Doesn't need the third "/"
 
+/* Bot 4 */
 $bot4 = 'Bot4'; // Name of the fourth Bot
 $Bot4about = 'Write what you want!';// About details for the fourth bot
 $Bot4smalldetail = 'Cheese bot'; // Small details about fourth bot
@@ -43,11 +51,14 @@ $bot4User = ''; // The user that the fourth bot is hosted on (Root if possible)
 $bot4Password = ''; // The users password to login to the fourth bots server
 $bot4location = ''; // The location the bot files are at (Doesn't need the fourth "/"
 
+/* TOS */
 $terms = 'You would replace this for terms of reporting a bug'; // The popup area when someone clicks to view the the terms of reporting a bug
 
-// Database things
+
+/* Database things */
+
 $server = 'localhost'; // Database server IP (Can be localhost)
-$username = ''; // Database username
-$password = ''; // Database User Password
-$db = ''; // Database name
+$username = 'musiciny_discordpanel'; // Database username
+$password = 'qgKCD}C0kx$Z'; // Database User Password
+$db = 'musiciny_discordpanel'; // Database name
 ?>

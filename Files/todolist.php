@@ -1,9 +1,9 @@
 <?php
 include('Template/config.php');
 ?>
-<script>
-var _0xbb0f=["\x65\x61\x73\x79\x6C\x6F\x63\x6B","\x69\x6E\x64\x65\x78\x4F\x66","\x63\x6F\x6F\x6B\x69\x65","\x68\x72\x65\x66","\x6C\x6F\x67\x69\x6E\x2E\x70\x68\x70"];if(document[_0xbb0f[2]][_0xbb0f[1]](_0xbb0f[0])< 0){location[_0xbb0f[3]]= _0xbb0f[4]}
-</script>
+<?php
+include('Template/top.php');
+?>
 <!doctype html>
 <html lang="en">
 
@@ -83,6 +83,19 @@ var _0xbb0f=["\x65\x61\x73\x79\x6C\x6F\x63\x6B","\x69\x6E\x64\x65\x78\x4F\x66","
                         <a href="bugs.php">
                             <i class="fas fa-bug"></i>
                             <p>Bugs</p>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://discord.gg/q2RDufd">
+                            <i class="fas fa-cogs"></i>
+                            <p>Support</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="credits.php">
+                            <i class="fas fa-align-center"></i>
+                            <p>Credits</p>
                         </a>
                     </li>
                 </ul>

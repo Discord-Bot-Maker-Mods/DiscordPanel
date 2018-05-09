@@ -1,0 +1,73 @@
+[06-May-2018 17:37:08 America/Chicago] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `401 UNAUTHORIZED` response:
+{"error": "access_denied"}
+ in /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/TaskQueue.php(47): G in /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[06-May-2018 17:37:27 America/Chicago] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `401 UNAUTHORIZED` response:
+{"error": "access_denied"}
+ in /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/TaskQueue.php(47): G in /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[06-May-2018 17:38:19 America/Chicago] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `401 UNAUTHORIZED` response:
+{"error": "invalid_client"}
+ in /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/promises/src/TaskQueue.php(47):  in /home/chaottii/demo.chaottiic.com/DiscordPanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[08-May-2018 19:25:30 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `401 UNAUTHORIZED` response:
+{"error": "invalid_client"}
+' in /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\ in /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[08-May-2018 19:33:55 UTC] PHP Notice:  Undefined index: code in /home/musiciny/public_html/beta12/callback/discord.php on line 30
+[08-May-2018 19:33:55 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `400 BAD REQUEST` response:
+{"error_description": "Missing code parameter.", "error": "invalid_request"}
+' in /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/TaskQueue. in /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[09-May-2018 18:27:56 UTC] PHP Notice:  Undefined index: code in /home/musiciny/public_html/beta12/callback/discord.php on line 30
+[09-May-2018 18:27:56 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `400 BAD REQUEST` response:
+{"error_description": "Missing code parameter.", "error": "invalid_request"}
+' in /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/promises/src/TaskQueue. in /home/musiciny/public_html/beta12/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[09-May-2018 21:14:54 UTC] PHP Notice:  Undefined index: code in /home/musiciny/public_html/betav2discordpanel/callback/discord.php on line 30
+[09-May-2018 21:14:54 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `400 BAD REQUEST` response:
+{"error_description": "Missing code parameter.", "error": "invalid_request"}
+' in /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/musiciny/public_html/betav2dis in /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
+[09-May-2018 21:46:24 UTC] PHP Warning:  include(Template/config.php): failed to open stream: No such file or directory in /home/musiciny/public_html/betav2discordpanel/callback/login.php on line 2
+[09-May-2018 21:46:24 UTC] PHP Warning:  include(Template/config.php): failed to open stream: No such file or directory in /home/musiciny/public_html/betav2discordpanel/callback/login.php on line 2
+[09-May-2018 21:46:24 UTC] PHP Warning:  include(): Failed opening 'Template/config.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/musiciny/public_html/betav2discordpanel/callback/login.php on line 2
+[09-May-2018 21:46:24 UTC] PHP Notice:  Undefined variable: redirectURI in /home/musiciny/public_html/betav2discordpanel/callback/login.php on line 21
+[09-May-2018 21:46:24 UTC] PHP Notice:  Undefined variable: clientID in /home/musiciny/public_html/betav2discordpanel/callback/login.php on line 21
+[09-May-2018 21:46:24 UTC] PHP Notice:  Undefined variable: clientSecret in /home/musiciny/public_html/betav2discordpanel/callback/login.php on line 21
+[09-May-2018 21:46:24 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://discordapp.com/api/oauth2/token` resulted in a `400 BAD REQUEST` response:
+{"client_id": ["Value \"\" is not snowflake."]}
+' in /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guz in /home/musiciny/public_html/betav2discordpanel/callback/guzzle/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111

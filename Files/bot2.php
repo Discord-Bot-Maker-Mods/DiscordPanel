@@ -1,4 +1,7 @@
 <?php
+include('Template/top.php');
+?>
+<?php
 include('Template/config.php');
 ?>
 <?php
@@ -12,7 +15,7 @@ $password = "$bot2Password";
 $ssh = new Net_SSH2($ip);
 if (!$ssh->login($user, $password)) {
     exit('<!DOCTYPE html><html><style>body {background: #fff;font: 16px Georgia, serif;line-height: 1.3;margin: 0;padding: 0;}#content {background: #fff url(/wp-content/dberror.png) no-repeat left top;height: 225px;margin: 80px auto 0;padding: 75px 50px 0 300px;width: 375px;}h1 {font-size: 34px;font-weight: normal;margin-top: 0;}p {margin: 0 0 10px 5px;}</style><div id="content"><h1>A error has arrived...</h1><p>Looks like the server login details do not work...</p><p>No need to worry though! Its fixable!<p><p>You can try these steps to fix it:<p> <ul><li>Check config file to see if there there</li><li>See if the login details are right</li><li>Check if the server is up and working</li></ul> <p>If none of these work join the offical discord server for support:<a href="https://discord.gg/q2RDufd"> Here</a>.<p></div>');
-	}
+}
 ?>
 <?php
 if(!empty($_POST['lobby-stop'])) { #Watch if the button is pressed
@@ -20,12 +23,45 @@ if(!empty($_POST['lobby-stop'])) { #Watch if the button is pressed
 }
 
 if(!empty($_POST['lobby-restart'])) { #Watch if the button is pressed
-    $ssh->exec('cd /$bot2location ; node bot.js'); #Execution in SSH
+    $ssh->exec('cd /$bot2location; node bot.js'); #Execution in SSH
 }
 ?>
-<script>
-var _0xbb0f=["\x65\x61\x73\x79\x6C\x6F\x63\x6B","\x69\x6E\x64\x65\x78\x4F\x66","\x63\x6F\x6F\x6B\x69\x65","\x68\x72\x65\x66","\x6C\x6F\x67\x69\x6E\x2E\x70\x68\x70"];if(document[_0xbb0f[2]][_0xbb0f[1]](_0xbb0f[0])< 0){location[_0xbb0f[3]]= _0xbb0f[4]}
-</script>
+<? 
+
+/* DISCORD OAUTH */
+
+$json = file_get_contents('Template/bot2Owners.json');
+
+$owners = json_decode($json, true);
+
+if (is_array($owners)) {
+
+    foreach ($owners as $obj) {
+
+        $ownerID = $obj['id'];
+
+        if ($_SESSION['user_id'] == $ownerID) {
+
+            $x = 1;
+    
+        }else{
+
+        }   
+    }
+}
+
+if($x == 1){
+
+}else{
+
+    $x = 0;
+    header("Location: error.php");
+    die();   
+
+}
+
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -104,6 +140,19 @@ var _0xbb0f=["\x65\x61\x73\x79\x6C\x6F\x63\x6B","\x69\x6E\x64\x65\x78\x4F\x66","
                         <a href="bugs.php">
                             <i class="fas fa-bug"></i>
                             <p>Bugs</p>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://discord.gg/q2RDufd">
+                            <i class="fas fa-cogs"></i>
+                            <p>Support</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="credits.php">
+                            <i class="fas fa-align-center"></i>
+                            <p>Credits</p>
                         </a>
                     </li>
                 </ul>

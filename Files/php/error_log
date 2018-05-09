@@ -2,3 +2,5 @@
 [13-Feb-2018 23:26:08 UTC] PHP Notice:  Trying to get property of non-object in /home/musiciny/public_html/discordbotadmin/to-do-list-master/php/getUsers.php on line 7
 [13-Feb-2018 23:26:10 UTC] PHP Notice:  Trying to get property of non-object in /home/musiciny/public_html/discordbotadmin/to-do-list-master/php/getUsers.php on line 7
 [13-Feb-2018 23:26:13 UTC] PHP Notice:  Trying to get property of non-object in /home/musiciny/public_html/discordbotadmin/to-do-list-master/php/getUsers.php on line 7
+[06-May-2018 17:17:08 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/chaottii/demo.chaottiic.com/DiscordPanel/php/dbconnect.php on line 6
+[08-May-2018 20:08:16 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'musiciny'@'localhost' (using password: NO) in /home/musiciny/public_html/beta12/php/dbconnect.php on line 6
