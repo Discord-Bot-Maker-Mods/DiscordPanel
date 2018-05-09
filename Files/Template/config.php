@@ -3,9 +3,9 @@
 /* General Settings */
 $brandname = 'DiscordPanel'; // Panel Name
 $websiterememberme = 'true'; // Website remember me option... true = On. false = off
-$clientID = '376359135794561024'; // Put your Discord Client ID for logging in.
-$clientSecret = 'zwYzE1RalBo7ykBvNI15McVYOW-L8_h3'; // Put your Discord Client Secret for logging in.
-$redirectURI = 'https://v2.beta.discordpanel.xyz/callback/login.php'; // Put your Discord Redirect URI for logging in. (Should be https://url.tld/callback/login.php)
+$clientID = ''; // Put your Discord Client ID for logging in.
+$clientSecret = '-L8_h3'; // Put your Discord Client Secret for logging in.
+$redirectURI = ''; // Put your Discord Redirect URI for logging in. (Should be https://url.tld/callback/login.php)
 
 /* Bot 1 */
 $bot1 = 'Bot1'; // Name of the first Bot
@@ -57,8 +57,8 @@ $terms = 'You would replace this for terms of reporting a bug'; // The popup are
 
 /* Database things */
 
-$server = 'localhost'; // Database server IP (Can be localhost)
-$username = 'musiciny_discordpanel'; // Database username
-$password = 'qgKCD}C0kx$Z'; // Database User Password
-$db = 'musiciny_discordpanel'; // Database name
+$server = ''; // Database server IP (Can be localhost)
+$username = ''; // Database username
+$password = ''; // Database User Password
+$db = ''; // Database name
 ?>
