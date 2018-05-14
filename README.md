@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### DiscordPanel   # The only free open source Discord Bot Panel for hosts and more. It currently can manage up to 4 bots by default but more bots can be added easily.
 ## What is is?
 =======
@@ -6,7 +5,6 @@
 ##### The only free open source Discord Bot Panel to manage up to 4 bots.
 
 ## What is it?
->>>>>>> 42d4134d5664016a231544943ce2455b108e644f
 DiscordPanel is an HTML, PHP, CSS, JS, and more designed discord bot software what works as a panel.
 Currently, you can, restart, stop and start a bot from the panel.
 You can have an unlimited number of bots added as long as you have the details.
@@ -22,11 +20,7 @@ We own and run around 14 discord bots what are on hundreds of thousands discord 
 You can view the Change-Log for DiscordPanel here: https://github.com/Discord-Bot-Maker-Mods/DiscordPanel/wiki/Change-Log#v15
 
 
-<<<<<<< HEAD
 DiscordPanel Version ## 2
-=======
-DiscordPanel Version - 1.5
->>>>>>> 42d4134d5664016a231544943ce2455b108e644f
 
 Offical Website: https://discordpanel.xyz
 
