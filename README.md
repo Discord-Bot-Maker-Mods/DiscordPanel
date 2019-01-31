@@ -26,7 +26,9 @@ Offical Website: https://discordpanel.xyz
 
 Demo Website: https://demo.discordpanel.xyz
 
-Watch the instilation video: https://youtu.be/Rmhb92uZbJA (v1.0-1.4 only)
+Watch the installation video: https://youtu.be/Rmhb92uZbJA (v1.0-1.4 only)
+
+Check the wiki: https://github.com/Discord-Bot-Maker-Mods/DiscordPanel/wiki
 
 Donate to keep development active at https://PayPal.me/braderstm
 
